@@ -2,10 +2,353 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ryan Jacob</title>
+    <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Notable|Rammetto+One|Roboto|Sonsie+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" >
+    
+
+    
 </head>
 <body>
-    <h1>Testing Portfolio</h1>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li>
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+
+
+        </nav>
+        <div class="landing-text">
+            <h1>Ryan Jacob</h1>
+            <h6>Web Developer</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile.img">
+                <img src="images/ryanprof.jpeg" alt="">
+            </div>
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>About</h1>
+                </div>
+                <p>
+                    My name is Ryan, I am a developer based in Denver.
+
+                    Among other things on the tech side, I enjoy playing music and beach volleyball.  
+
+                    I am very passionate about design and creativity as I build websites and use every opportunity to continue learning how to grow as a developer.
+                </p>
+                <div class="social-media">
+                    <ul class="nav-list">
+                        <li>
+                            <a href="https://www.facebook.com/ryanjacobsman" class="icon-link">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ryanjacobmusic" class="icon-link">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ryanjacobmusic/" class="icon-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="images/rjres.pdf" download="ryres" class="icon-link"> 
+                                <button type="button">Resume</button> 
+                            </a> 
+                            <i class="fas fa-file-pdf"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!-- TRYING OUT STUFF -->
+
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+                <h6>Some of my work for you to see</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="images/bandapp.png" alt="">
+                    </div>
+                    <h1>Band APP</h1>
+                    <p>
+                        <h6>A website for compiling favorite bands and songs</h6>
+                        <a href="https://salty-bastion-63361.herokuapp.com/" class="cta">View App</a>
+                    </p>
+                </div>
+              
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="images/cnt.png" alt="">
+                </div>
+                    
+                    </div>
+                    <h1>Rock Paper Scissors</h1>
+                    <p>
+                        <h6>Based off the popoular game of rock paper scissors but with different fun characters.</h6>
+                        <a href="https://pages.git.generalassemb.ly/ryanjacobmusic/project-1/" class="cta">View App</a>
+                    </p>
+                </div>
+            </div>
+    </section>
+
+
+
+    <!-- TRYING THIS OUT  -->
+
+
+
+    <!-- <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right">
+                    <img src="images/cnt.png" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Rock Paper Scissors Game</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="https://pages.git.generalassemb.ly/ryanjacobmusic/project-1/" class="cta">View Details</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/bandapp.png" alt="">
+                </div>
+                <div class="portfolio-description has-margin-right">
+                    <h1>Band APP</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="https://salty-bastion-63361.herokuapp.com/" class="cta">View Details</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>The Simple Parade Website</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>     -->
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Projects</h1>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/cnt.png" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Rock Paper Scissors Game</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="https://pages.git.generalassemb.ly/ryanjacobmusic/project-1/" class="cta">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/bandapp.png" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>Band APP</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="https://salty-bastion-63361.herokuapp.com/" class="cta">View Details</a>
+                </div>
+            </div>
+
+            <!-- <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/bandapp.png" alt="">
+                </div>
+                <div class="portfolio-description has-margin-right">
+                    <h1>Band APP</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="https://salty-bastion-63361.herokuapp.com/" class="cta">View Details</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img">
+                    <img src="images/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description">
+                    <h1>The Simple Parade Website</h1>
+                    <p>
+                        Description of game
+                    </p>
+                    <a href="#" class="cta">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>     -->
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+            </div>
+            <div class="social-media">
+                <ul class="nav-list">
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-react"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-js-square"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-css3-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-html5"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-python"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link">
+                            <i class="fab fa-node"></i>
+                        </a>
+                    </li>
+                  
+        
+                </ul>
+            </div>
+            
+        </div>
+    </section>    
+
+
+<!-- TRYING STUFF OUT HERE -->
+
+
+    <!-- <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Skills</h1>
+                <h6>What can I do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill">
+                    <div class="icon-container">
+                        <img src="images/bandapp.png" alt="">
+                        <!-- <i class="fas fa-layer-group"></i> -->
+                    <!-- </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-code-group"></i>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="icon-container">
+                        <i class="fas fa-html5"></i>
+                    </div>
+                </div>
+            </div>
+    </section>  -->
+
+<!-- JUST TRYING -->
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Lets Work Together</h6>
+            </div>
+            <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+            <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>    
+
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        
+        <p>
+          &copy;  2020 Ryan Jacob
+        </p>
+
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
