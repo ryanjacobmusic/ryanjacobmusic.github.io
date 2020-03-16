@@ -80,10 +80,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="./images/rjres.pdf" download="ryres" class="icon-link"> 
-                                <button type="button">Resume</button> 
+                            <a href="images/rjres.pdf" download="rjres" class="icon-link"> 
+                                <!-- <button type="button">Resume</button>  -->
+                                <i class="fas fa-file-pdf"></i>
+                                <!-- <button><i class="fas fa-file-pdf"></i>Resume</button>  -->
                             </a> 
-                            <i class="fas fa-file-pdf"></i>
                             </a>
                         </li>
                     </ul>
@@ -96,7 +97,7 @@
 
     <!-- TRYING OUT STUFF -->
 
-
+<!-- 
     <section class="services" id="services">
         <div class="container">
             <div class="section-heading">
@@ -128,7 +129,7 @@
                     </p>
                 </div>
             </div>
-    </section>
+    </section> -->
 
 
 
@@ -194,7 +195,7 @@
                 <div class="portfolio-description">
                     <h1>Rock Paper Scissors Game</h1>
                     <p>
-                        Description of game
+                        Based off the popoular game of rock paper scissors but with new engaging characters.
                     </p>
                     <a href="https://pages.git.generalassemb.ly/ryanjacobmusic/project-1/" class="cta">View Details</a>
                 </div>
@@ -206,7 +207,7 @@
                 <div class="portfolio-description">
                     <h1>Band APP</h1>
                     <p>
-                        Description of game
+                        A website for compiling favorite bands and songs
                     </p>
                     <a href="https://salty-bastion-63361.herokuapp.com/" class="cta">View Details</a>
                 </div>
@@ -324,12 +325,14 @@
                 <h1>Contact</h1>
                 <h6>Lets Work Together</h6>
             </div>
-            <form action="">
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name" required>
-            <label for="email">Email:</label>
-            <input type="text" id="email" placeholder="Enter your email" required>
-            <input type="submit" value="Submit">
+            <form action="mailto:rjacob4@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="Send">
             </form>
         </div>
     </section>    
